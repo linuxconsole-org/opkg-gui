@@ -1,4 +1,5 @@
 PROG=opkg-gui
+PREFIX=$(HOME)/opkg
 
 OPKG_DEV=../../opkg/pkg/usr/
 
