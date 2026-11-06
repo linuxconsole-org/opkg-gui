@@ -21,7 +21,9 @@ $(PROG): opkg-gui.c
 
 install: $(PROG)
 	install -d $(DESTDIR)/$(PREFIX)/bin
+	install -d $(DESTDIR)/$(PREFIX)/share/applications
 	install -m 0755 $(PROG) $(DESTDIR)/$(PREFIX)/bin/$(PROG)
+	install -m 0755 share/applications/opkg.desktop $(DESTDIR)/$(PREFIX)/share/applications/opkg.desktop
 
 clean:
 	$(RM) $(OBJS) $(PROG)

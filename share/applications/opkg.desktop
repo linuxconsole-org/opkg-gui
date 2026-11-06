@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Add new software (root only)
+Name[fr]=Ajouter des logiciels (root seulement)
+GenericName=Opkg Package manager
+Exec=ydfs-gui
+Terminal=false
+Icon=opkg
+Type=Application
+Categories=Network
